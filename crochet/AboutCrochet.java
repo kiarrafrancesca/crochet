@@ -103,7 +103,6 @@ public class AboutCrochet {
             System.out.println();
             System.out.println("Press 'enter' to return to tools menu.");
             input.nextLine();
-            input.nextLine();
             crochetTools();
         }
         else {
@@ -141,6 +140,10 @@ public class AboutCrochet {
             userManager.clearScreen();
             System.out.println("Yarn Name: " + yarn.getName());
             System.out.println("Description: " + yarn.getDescription());
+            System.out.println();
+            System.out.println("Press 'enter' to return to tools menu.");
+            input.nextLine();
+            yarnology();
         }
         else {
             System.out.println("Please enter a valid choice from the list.");
@@ -186,6 +189,10 @@ public class AboutCrochet {
             System.out.println("Stitch Name: " + stitch.getName());
             System.out.println("Description: " + stitch.getDescription());
             System.out.println("Tutorial:\n" + stitch.getTutorial());
+            System.out.println();
+            System.out.println("Press 'enter' to return to tools menu.");
+            input.nextLine();
+            stitchLibrary();
         }
         else {
             System.out.println("Please enter a valid choice from the list.");
@@ -225,6 +232,10 @@ public class AboutCrochet {
             userManager.clearScreen();
             System.out.println("Tip Name: " + tips.getName());
             System.out.println("Tip/Trick: " + tips.getTips());
+            System.out.println();
+            System.out.println("Press 'enter' to return to tools menu.");
+            input.nextLine();
+            tipsAndTricks();
         }
         else {
             System.out.println("Please enter a valid choice from the list.");
