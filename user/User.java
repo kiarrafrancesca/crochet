@@ -54,6 +54,7 @@ public class User {
             crochetMenu.crochetMenu();
         }
         else {
+            userManager.clearScreen();
             System.out.println("Invalid username or password. Please try again.");
         }
     }    

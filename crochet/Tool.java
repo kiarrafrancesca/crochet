@@ -27,8 +27,8 @@ class ToolInitializer {
         tools.add (new Tool(
             "Crochet Hook",
             "Used to create stitches by pulling yarn through loops.\n" +
-            "Sizes: 2.00mm, 2.25mm, 2.5mm, 2.75mm, 3.0mm, so on...\n" +
-            "Materials: Metal, Plastic, or Bamboo"
+            "\tSizes: 2.00mm, 2.25mm, 2.5mm, 2.75mm, 3.0mm, so on...\n" +
+            "\tMaterials: Metal, Plastic, or Bamboo"
         ));
         tools.add (new Tool(
             "Scissor",

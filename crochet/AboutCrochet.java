@@ -91,6 +91,7 @@ public class AboutCrochet {
             input.next(); //clear invalid input
             return;
         }
+
         if (toolNumber == 0) {
             return; //exit
         }
@@ -99,7 +100,11 @@ public class AboutCrochet {
             userManager.clearScreen();
             System.out.println("Tool/Material Name: " + tool.getName());
             System.out.println("Description: " + tool.getDescription());
-            return;
+            System.out.println();
+            System.out.println("Press 'enter' to return to tools menu.");
+            input.nextLine();
+            input.nextLine();
+            crochetTools();
         }
         else {
             System.out.println("Please enter a valid choice from the list.");
