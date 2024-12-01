@@ -68,7 +68,7 @@ public class UserManager {
 
     public void saveUser(String username, String password) {
         try (FileWriter fileWriter = new FileWriter(userData, true)) {
-            fileWriter.write(username + ", " + password);
+            fileWriter.write(username + ", " + password + System.lineSeparator());
         }
         catch (IOException e) {
             System.out.println("Error: " + e.getMessage());
